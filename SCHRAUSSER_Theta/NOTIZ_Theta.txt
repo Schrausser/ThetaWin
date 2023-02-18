@@ -1,0 +1,27 @@
+Theta von Dietmar SCHRAUSSER 2009
+
+Handhabung
+----------
+----------------------------------------------------------
+Usage: Theta [sd] [min] [max] [qq] [q] [v] [s] [[x]] [[g]]
+ [sd]  ........... Seed: |0| Zeitwert
+ [min] ........... R Minimalwert
+ [max] ........... R Maximalwert
+ [qq]  ........... Theta-Theta/
+ [q]   ........... Theta:
+                    |0| Harmonisches Mittel (HM)
+                    |1| Arithmetisches Mittel (AM)
+                    |2| Summe (SUM)
+                    |3| Standardabweichung (SD)
+                    |4| Populationsvarianzschaetzung (VAR)
+                    |5| Produktsumme(PSM)
+                    |6| Geometrisches Mittel(GM)
+                    |7| Schrausser's d (D)
+                    |8| DvarO (DV)
+ [v]  ...........  n zu Theta (v)
+ [s]  ...........  n Subpopulationen (s)
+ [x]  ...........  Vergleichswert x
+ [g]  ...........  |1| Wertebereich ganzzahlig
+----------------------------------------------------------
+Theta by Dietmar Schrausser
+compiled on Dec 15 2009 @ 18:59:16

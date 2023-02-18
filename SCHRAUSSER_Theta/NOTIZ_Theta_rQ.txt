@@ -1,0 +1,45 @@
+Theta_rQ von Dietmar SCHRAUSSER 2009
+
+Handhabung
+----------
+
+----------------------------------------------------------------------
+Usage: Theta_rQ [sd][min][max][qq][qp][q11][q12][q21][q22][qr1][qr2][qQ]
+                [v][m][n][s] [[x]] [[g]]
+ [sd]  ....................... Seed: |0| Zeitwert
+ [min] ....................... R Minimalwert
+ [max] ....................... R Maximalwert
+ [qq]  ....................... Theta-Theta/
+ [qp]  ....................... Theta P/
+ [q11][q12] .................. Theta S11, S12/
+ [q21][q22] .................. Theta S21, S22:
+                                |0| Harmonisches Mittel (HM)
+                                |1| Arithmetisches Mittel (AM)
+                                |2| Summe (SUM)
+                                |3| Standardabweichung (SD)
+                                |4| Populationsvarianzschaetzung (VAR)
+                                |5| Produktsumme(PSM)
+                                |6| Geometrisches Mittel(GM)
+                                |7| Schrausser's d (D)
+                                |8| DvarO (DV)
+ [qr1][qr2] ...................Theta Regressionen 1,2/
+                                |1| Korrelation (kor)
+                                |2| Kovarianz (cov)
+                                |3| Determinatinskoeffizient (det)
+                                |4| Redundanz (red)
+ [qQ]  ....................... Theta Q:
+                                |1| Differenz (Diff)
+                                |2| Quotient (Quot)
+                                |3| Summe (Summ)
+                                |4| Produkt (Prod)
+ [v]  .......................  n zu Theta P (v)
+ [m]  .......................  n zu Theta S11,S12 (m)
+ [n]  .......................  n zu Theta S21,S22 (n)
+ [s]  .......................  n Subpopulationen (s)
+ [x]  .......................  Vergleichswert x
+ [g]  .......................  |1| Wertebereich ganzzahlig
+----------------------------------------------------------------------
+Theta_rQ by Dietmar Schrausser
+compiled on Dec 15 2009 @ 19:01:31
+
+

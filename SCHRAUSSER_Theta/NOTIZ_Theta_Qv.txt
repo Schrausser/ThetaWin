@@ -1,0 +1,41 @@
+Theta_Qv von Dietmar SCHRAUSSER 2009
+
+Handhabung
+----------
+
+-----------------------------------------------------------------------------
+Usage: Theta_Qv [sd][min][max][qq][qp][qs1][qs2][qQ][QQ][v][n][s] [[x]] [[g]]
+ [sd]  ........................... Seed: |0| Zeitwert
+ [min] ........................... R Minimalwert
+ [max] ........................... R Maximalwert
+ [qq]  ........................... Theta-Theta/
+ [qp]  ........................... Theta P/
+ [qs1][qs2]....................... Theta S1, S2/
+ [qQ]  ........................... Theta Q:
+                                    |0| Harmonisches Mittel (HM)
+                                    |1| Arithmetisches Mittel (AM)
+                                    |2| Summe (SUM)
+                                    |3| Standardabweichung (SD)
+                                    |4| Populationsvarianzschaetzung (VAR)
+                                    |5| Produktsumme(PSM)
+                                    |6| Geometrisches Mittel(GM)
+                                    |7| Schrausser's d (D)
+                                    |8| DvarO (DV)
+ [QQ]  ........................... Theta Theta Q:
+                                    |1| Differenz
+                                    |2| Quotient
+                                    |3| Summe
+                                    |4| Produkt
+                                    |5| Korrelation
+                                    |6| Kovarianz
+                                    |7| Determinationskoeffizient
+                                    |8| Redundanz
+ [v]  ...........................  n zu Theta P (v)
+ [n]  ...........................  n zu Theta S1,S2 (n)
+ [s]  ...........................  n Subpopulationen (s)
+ [x]  ...........................  Vergleichswert x
+ [g]  ...........................  |1| Wertebereich ganzzahlig
+-----------------------------------------------------------------------------
+Theta_Qv by Dietmar Schrausser
+compiled on Dec 15 2009 @ 19:01:14
+
