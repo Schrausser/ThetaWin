@@ -12,6 +12,7 @@ generating distributions and estimators for several parameters q within differen
 - etc.
 ## Designs
 ### Theta
+Psrameters q
 ### Theta Q
 - |1| Difference 
 - |2| Quotient 
@@ -27,7 +28,16 @@ generating distributions and estimators for several parameters q within differen
 - |7| Determination coeffizient 
 - |8| Redundance
 ### Theta rQ
+- |1| Correlation (kor) 
+- |2| Covariance (cov) 
+- |3| Determinatin coeffizient (det) 
+- |4| Redundance (red) 
+- |1| Difference (Diff) 
+- |2| Quotient (Quot) 
+- |3| Sum (Summ) 
+- |4| Product (Prod)
 ### Theta S
+Parameters q
 
 ## References
 Schrausser, D., G. (2009). *SCHRAUSSER Theta*. Academia Draft. https://www.academia.edu/81800920/SCHRAUSSER_Theta
