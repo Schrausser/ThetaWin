@@ -18,5 +18,13 @@ generating distributions and estimators for several parameters q within differen
 - |3| Sum
 - |4| Product
 ### Theta Qv
+  |1| Difference
+  |2| Quotient 
+  |3| Sum
+  |4| Product
+  |5| correlation
+  |6| covariance
+  |7| Determination coeffizient 
+  |8| Redundance
 ### Theta rQ
 ### Theta S
