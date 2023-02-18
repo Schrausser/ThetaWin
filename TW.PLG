@@ -1,0 +1,65 @@
+--------------------Configuration: TW - Win32 Debug--------------------
+Begining build with project "D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\TW.DSP", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/TW.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x407 /fo"Debug/TW.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/TW.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/TW.pdb" /debug /machine:I386 /out:"Debug/TW.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x407 /fo"Debug/TW.res" /d "_DEBUG" /d "_AFXDLL" "D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\TW.rc"" 
+Creating temp file "c:\temp\RSP62D.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/TW.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\Theta_QCMD.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\Theta_QvCMD.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\Theta_rQCMD.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\Theta_SCMD.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\ThetaCMD.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\TW.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\TWDlg.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\TWInfo.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\doc_rQ.cpp"
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\doc_Q.cpp"
+>
+Creating command line "cl.exe @c:\temp\RSP62D.tmp" 
+Creating temp file "c:\temp\RSP62E.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/TW.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\_EIGENEDATEIEN_\1_LAUFENDES\1_SYSTEM\3_C_PROGRAMME\_Ip_\_Verteilungs_Funktionen_\__Verteilungsform__\_ThetaWin_\StdAfx.cpp"
+>
+Creating command line "cl.exe @c:\temp\RSP62E.tmp" 
+Creating temp file "c:\temp\RSP62F.tmp" with contents </nologo /subsystem:windows /incremental:yes /pdb:"Debug/TW.pdb" /debug /machine:I386 /out:"Debug/TW.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\Theta_QCMD.obj
+.\Debug\Theta_QvCMD.obj
+.\Debug\Theta_rQCMD.obj
+.\Debug\Theta_SCMD.obj
+.\Debug\ThetaCMD.obj
+.\Debug\TW.obj
+.\Debug\TWDlg.obj
+.\Debug\TWInfo.obj
+.\Debug\TW.res
+.\Debug\doc_rQ.obj
+.\Debug\doc_Q.obj>
+Creating command line "link.exe @c:\temp\RSP62F.tmp" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Theta_QCMD.cpp
+Theta_QvCMD.cpp
+Theta_rQCMD.cpp
+Theta_SCMD.cpp
+ThetaCMD.cpp
+TW.cpp
+TWDlg.cpp
+TWInfo.cpp
+doc_rQ.cpp
+doc_Q.cpp
+Generating Code...
+Linking...
+
+
+
+TW.exe - 0 error(s), 0 warning(s)

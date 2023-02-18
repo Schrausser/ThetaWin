@@ -1,0 +1,1068 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\TW.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 157, 28
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Lucida Sans Unicode"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,4,20,17
+    LTEXT           "ThetaWin - 1.0",IDC_STATIC,40,4,72,8,SS_NOPREFIX
+    LTEXT           "(C) SCHRAUSSER 2009",IDC_STATIC,40,12,92,8
+    DEFPUSHBUTTON   "°",IDOK,124,4,27,7,BS_LEFT | WS_GROUP
+END
+
+IDD_TW_DIALOG DIALOGEX 0, 0, 218, 6
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ThetaWin"
+MENU IDR_MENU
+FONT 8, "Lucida Sans Unicode"
+BEGIN
+    PUSHBUTTON      "Abbrechen",IDCANCEL,203,0,6,6,NOT WS_VISIBLE
+END
+
+IDD_THETA_CMD DIALOGEX 0, 0, 341, 46
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Theta - Command Dialog"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    DEFPUSHBUTTON   "ausführen",IDOK,278,30,58,12
+    PUSHBUTTON      "°",IDCANCEL,3,31,55,11,BS_LEFT
+    COMBOBOX        IDC_COMBO_Q,194,12,30,135,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_V,226,12,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S,253,12,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X,285,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "GZ",IDC_CHECK__GZ,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,311,3,25,8
+    CONTROL         "X",IDC_CHECK__X,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,285,3,25,8
+    EDITTEXT        IDC_GZ,311,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Seed",IDC_STATIC,40,3,18,8
+    LTEXT           "Min",IDC_STATIC,84,4,12,8
+    LTEXT           "Max",IDC_STATIC,120,4,15,8
+    COMBOBOX        IDC_COMBO_QQ,149,12,44,125,CBS_DROPDOWNLIST | WS_VSCROLL
+    LTEXT           "Theta-Theta",IDC_STATIC,148,4,46,8
+    LTEXT           "Theta",IDC_STATIC,194,4,22,8
+    LTEXT           "v",IDC_STATIC,227,3,15,8
+    LTEXT           "s",IDC_STATIC,253,3,15,8
+    COMBOBOX        IDC_COMBO_Max,117,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Min,83,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CMD,4,12,34,12,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_COMBO_SEED,40,12,42,135,CBS_DROPDOWN | WS_VSCROLL
+    PUSHBUTTON      "info",ID_INFO,60,31,55,11,NOT WS_TABSTOP
+    PUSHBUTTON      "LOG edit",ID_LOG,116,31,48,11,NOT WS_TABSTOP
+END
+
+IDD_INFO DIALOGEX 0, 0, 203, 33
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "ThetaWin - Info"
+FONT 8, "Lucida Sans Unicode"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,3,20,20
+    LTEXT           "ThetaWin, Version 1.0",IDC_STATIC,37,3,139,8,
+                    SS_NOPREFIX
+    LTEXT           "Compiled on ",IDC_STATIC,37,17,43,8
+    LTEXT           "by Dietmar Schrausser, SCHRAUSSER 2009",IDC_STATIC,37,
+                    10,146,8
+    LTEXT           "@",IDC_STATIC,123,17,8,8
+    EDITTEXT        IDC_TIME,128,17,47,14,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_DATE,80,17,41,14,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER | NOT WS_TABSTOP
+END
+
+IDD_THETA_S_CMD DIALOGEX 0, 0, 402, 46
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Theta_S - Command Dialog"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    PUSHBUTTON      "°",IDCANCEL,5,31,53,11,BS_LEFT
+    DEFPUSHBUTTON   "ausführen",IDOK,338,30,58,12
+    COMBOBOX        IDC_COMBO_QP,194,12,30,135,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_M,286,12,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S,313,12,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X,345,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "GZ",IDC_CHECK__GZ,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,371,3,25,8
+    CONTROL         "X",IDC_CHECK__X,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,345,3,25,8
+    EDITTEXT        IDC_GZ,371,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Seed",IDC_STATIC,41,3,18,8
+    LTEXT           "Min",IDC_STATIC,86,4,12,8
+    LTEXT           "Max",IDC_STATIC,118,4,15,8
+    COMBOBOX        IDC_COMBO_QQ,149,12,44,125,CBS_DROPDOWNLIST | WS_VSCROLL
+    LTEXT           "Theta-Theta",IDC_STATIC,148,4,46,8
+    LTEXT           "Theta P",IDC_STATIC,194,4,30,8
+    LTEXT           "m",IDC_STATIC,287,4,15,8
+    LTEXT           "s",IDC_STATIC,313,4,15,8
+    COMBOBOX        IDC_COMBO_Max,117,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Min,85,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CMD,5,12,34,12,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_COMBO_SEED,41,12,42,135,CBS_DROPDOWN | WS_VSCROLL
+    PUSHBUTTON      "info",ID_INFO,61,31,55,11,NOT WS_TABSTOP
+    PUSHBUTTON      "LOG edit",ID_LOG,150,31,48,11,NOT WS_TABSTOP
+    EDITTEXT        IDC_V,259,12,25,12,ES_AUTOHSCROLL
+    LTEXT           "v",IDC_STATIC,260,4,15,8
+    COMBOBOX        IDC_COMBO_QS,226,12,30,135,CBS_DROPDOWNLIST | WS_VSCROLL
+    LTEXT           "Theta S",IDC_STATIC,226,4,28,8
+END
+
+IDD_THETA_Q_CMD DIALOGEX 0, 0, 434, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Theta_Q - Command Dialog"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    PUSHBUTTON      "°",IDCANCEL,5,35,53,11,BS_LEFT
+    DEFPUSHBUTTON   "ausführen",IDOK,378,34,52,12
+    COMBOBOX        IDC_COMBO_QP,193,12,30,135,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_M,319,12,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S,346,12,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X,378,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "GZ",IDC_CHECK__GZ,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,404,3,25,8
+    CONTROL         "X",IDC_CHECK__X,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,378,3,25,8
+    EDITTEXT        IDC_GZ,404,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Seed",IDC_STATIC,40,3,18,8
+    LTEXT           "Min",IDC_STATIC,85,4,12,8
+    LTEXT           "Max",IDC_STATIC,117,4,15,8
+    COMBOBOX        IDC_COMBO_QQ,148,12,44,125,CBS_DROPDOWNLIST | WS_VSCROLL
+    LTEXT           "Theta-Theta",IDC_STATIC,147,4,46,8
+    LTEXT           "Theta P",IDC_STATIC,193,4,30,8
+    LTEXT           "m",IDC_STATIC,319,4,15,8
+    LTEXT           "s",IDC_STATIC,346,4,15,8
+    COMBOBOX        IDC_COMBO_Max,116,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Min,84,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CMD,5,12,33,12,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_COMBO_SEED,40,12,42,135,CBS_DROPDOWN | WS_VSCROLL
+    PUSHBUTTON      "info",ID_INFO,61,35,55,11,NOT WS_TABSTOP
+    PUSHBUTTON      "LOG edit",ID_LOG,148,35,55,11,NOT WS_TABSTOP
+    EDITTEXT        IDC_V,292,12,25,12,ES_AUTOHSCROLL
+    LTEXT           "v",IDC_STATIC,293,4,15,8
+    COMBOBOX        IDC_COMBO_QS1,225,12,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta S1",IDC_STATIC,224,4,33,8
+    COMBOBOX        IDC_COMBO_QS2,225,35,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta S2",IDC_STATIC,224,27,34,8
+    EDITTEXT        IDC_N,319,33,25,12,ES_AUTOHSCROLL
+    LTEXT           "n",IDC_STATIC,319,25,15,8
+    COMBOBOX        IDC_COMBO_Q,259,12,30,135,CBS_DROPDOWNLIST | WS_VSCROLL
+    LTEXT           "Theta",IDC_STATIC,259,4,34,8
+END
+
+IDD_THETA_Qv_CMD DIALOGEX 0, 0, 438, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Theta_Qv - Command Dialog"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    PUSHBUTTON      "°",IDCANCEL,5,35,53,11,BS_LEFT
+    DEFPUSHBUTTON   "ausführen",IDOK,381,34,52,12
+    COMBOBOX        IDC_COMBO_QP,196,12,30,135,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_N,322,12,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S,349,12,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X,381,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "GZ",IDC_CHECK__GZ,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,407,3,25,8
+    CONTROL         "X",IDC_CHECK__X,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,381,3,25,8
+    EDITTEXT        IDC_GZ,407,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Seed",IDC_STATIC,43,3,18,8
+    LTEXT           "Min",IDC_STATIC,88,4,12,8
+    LTEXT           "Max",IDC_STATIC,120,4,15,8
+    COMBOBOX        IDC_COMBO_QQ,151,12,44,125,CBS_DROPDOWNLIST | WS_VSCROLL
+    LTEXT           "Theta-Theta",IDC_STATIC,150,4,46,8
+    LTEXT           "Theta P",IDC_STATIC,196,4,30,8
+    LTEXT           "n",IDC_STATIC,322,4,15,8
+    LTEXT           "s",IDC_STATIC,349,4,15,8
+    COMBOBOX        IDC_COMBO_Max,119,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Min,87,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CMD,5,12,36,12,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_COMBO_SEED,43,12,42,135,CBS_DROPDOWN | WS_VSCROLL
+    PUSHBUTTON      "info",ID_INFO,61,35,55,11,NOT WS_TABSTOP
+    PUSHBUTTON      "LOG edit",ID_LOG,151,35,55,11,NOT WS_TABSTOP
+    EDITTEXT        IDC_V,295,12,25,12,ES_AUTOHSCROLL
+    LTEXT           "v",IDC_STATIC,296,4,15,8
+    COMBOBOX        IDC_COMBO_QS1,228,12,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta S1",IDC_STATIC,227,4,33,8
+    COMBOBOX        IDC_COMBO_QS2,228,35,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta S2",IDC_STATIC,227,27,34,8
+    COMBOBOX        IDC_COMBO_Q,262,35,30,135,CBS_DROPDOWNLIST | WS_VSCROLL
+    LTEXT           "Theta",IDC_STATIC,262,27,34,8
+    COMBOBOX        IDC_COMBO_QQQ,262,12,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "THETA",IDC_STATIC,262,4,21,8
+END
+
+IDD_THETA_rQ_CMD DIALOGEX 0, 0, 515, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Theta_rQ - Command Dialog"
+FONT 7, "Lucida Sans Unicode"
+BEGIN
+    PUSHBUTTON      "°",IDCANCEL,5,35,53,11,BS_LEFT
+    DEFPUSHBUTTON   "ausführen",IDOK,458,34,52,12
+    COMBOBOX        IDC_COMBO_QP,196,12,30,135,CBS_DROPDOWNLIST | WS_VSCROLL
+    EDITTEXT        IDC_M,399,12,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_S,426,12,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X,458,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "GZ",IDC_CHECK__GZ,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,484,3,25,8
+    CONTROL         "X",IDC_CHECK__X,"Button",BS_AUTOCHECKBOX | BS_LEFT | 
+                    BS_PUSHLIKE | WS_TABSTOP,458,3,25,8
+    EDITTEXT        IDC_GZ,484,12,25,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Seed",IDC_STATIC,43,3,18,8
+    LTEXT           "Min",IDC_STATIC,88,4,12,8
+    LTEXT           "Max",IDC_STATIC,120,4,15,8
+    COMBOBOX        IDC_COMBO_QQ,151,12,44,125,CBS_DROPDOWNLIST | WS_VSCROLL
+    LTEXT           "Theta-Theta",IDC_STATIC,150,4,46,8
+    LTEXT           "Theta P",IDC_STATIC,196,4,30,8
+    LTEXT           "m",IDC_STATIC,399,4,15,8
+    LTEXT           "s",IDC_STATIC,426,4,15,8
+    COMBOBOX        IDC_COMBO_Max,119,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO_Min,87,12,31,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_CMD,5,12,36,12,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_COMBO_SEED,43,12,42,135,CBS_DROPDOWN | WS_VSCROLL
+    PUSHBUTTON      "info",ID_INFO,61,35,55,11,NOT WS_TABSTOP
+    PUSHBUTTON      "LOG edit",ID_LOG,152,35,55,11,NOT WS_TABSTOP
+    EDITTEXT        IDC_V,372,12,25,12,ES_AUTOHSCROLL
+    LTEXT           "v",IDC_STATIC,373,4,15,8
+    COMBOBOX        IDC_COMBO_QS11,230,12,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta S11",IDC_STATIC,227,4,37,8
+    COMBOBOX        IDC_COMBO_QS12,230,34,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta S12",IDC_STATIC,227,26,36,8
+    COMBOBOX        IDC_COMBO_QR1,304,12,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta R1",IDC_STATIC,303,4,34,8
+    COMBOBOX        IDC_COMBO_QQQ,339,12,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "THETA",IDC_STATIC,339,4,21,8
+    COMBOBOX        IDC_COMBO_QS21,267,12,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta S21",IDC_STATIC,265,4,37,8
+    COMBOBOX        IDC_COMBO_QS22,267,34,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta S22",IDC_STATIC,265,26,38,8
+    EDITTEXT        IDC_N,399,34,25,12,ES_AUTOHSCROLL
+    LTEXT           "n",IDC_STATIC,399,26,15,8
+    COMBOBOX        IDC_COMBO_QR2,304,34,30,135,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL
+    LTEXT           "Theta R2",IDC_STATIC,303,26,34,8
+END
+
+IDD_DOC_rQ DIALOGEX 0, 0, 427, 263
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Theta  _S _Qv _rQ - Struktur"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         152,IDC_STATIC,"Static",SS_BITMAP,7,7,411,250
+    PUSHBUTTON      "°",IDCANCEL,363,247,57,11,BS_LEFT | NOT WS_TABSTOP
+END
+
+IDD_DOC_Q DIALOGEX 0, 0, 320, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Theta_Q - Struktur"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         150,IDC_STATIC,"Static",SS_BITMAP,7,7,306,187
+    PUSHBUTTON      "°",IDCANCEL,261,182,52,10,BS_LEFT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,43432
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "SCHRAUSSER\0"
+            VALUE "FileDescription", "ThetaWin\0"
+            VALUE "FileVersion", "1, 0, 0, 43432\0"
+            VALUE "InternalName", "TW\0"
+            VALUE "LegalCopyright", "Dietmar Schrausser (C) 2009\0"
+            VALUE "OriginalFilename", "TW.EXE\0"
+            VALUE "ProductName", "ThetaWin\0"
+            VALUE "ProductVersion", "1, 0, 1, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_TW_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+    END
+
+    IDD_THETA_CMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 334
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 26
+    END
+
+    IDD_THETA_S_CMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 395
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+
+    IDD_THETA_Q_CMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 427
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_THETA_Qv_CMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 431
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_THETA_rQ_CMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 508
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_DOC_rQ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 420
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_DOC_Q, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 192
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TW.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Programm"
+    BEGIN
+        MENUITEM "Info",                        ID_PROGRAMM_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "Beenden",                     ID_PROGRAMM_BEENDEN
+    END
+    POPUP "Verteilungsform"
+    BEGIN
+        MENUITEM "Theta",                       ID_VERTEILUNGSFORM_THETA
+        MENUITEM "Theta_S",                     ID_VERTEILUNGSFORM_THETAS
+        MENUITEM "Theta_Q",                     ID_VERTEILUNGSFORM_THETAQ
+        MENUITEM "Theta_Qv",                    ID_VERTEILUNGSFORM_THETAQV
+        MENUITEM "Theta_rQ",                    ID_VERTEILUNGSFORM_THETARQ
+    END
+    POPUP "Dokumentation"
+    BEGIN
+        MENUITEM "Theta _S _Qv _rQ",            ID_DOKUMENTATION_THETARQ
+        MENUITEM "Theta_Q",                     ID_DOKUMENTATION_THETAQ
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_THETA_CMD DLGINIT
+BEGIN
+    IDC_COMBO_Q, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_Q, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_Q, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_Q, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_Q, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_Q, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_Q, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_Q, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_Q, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QQ, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_Max, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_COMBO_Max, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_Min, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_Min, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 6, 0
+0x3231, 0x3433, 0x0035, 
+    0
+END
+
+IDD_THETA_S_CMD DLGINIT
+BEGIN
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QP, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QQ, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_Max, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_COMBO_Max, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_Min, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_Min, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 6, 0
+0x3231, 0x3433, 0x0035, 
+    IDC_COMBO_QS, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS, 0x403, 3, 0
+0x5644, "\000" 
+    0
+END
+
+IDD_THETA_Q_CMD DLGINIT
+BEGIN
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QP, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QQ, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_Max, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_COMBO_Max, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_Min, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_Min, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 6, 0
+0x3231, 0x3433, 0x0035, 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS1, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS1, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS1, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS1, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS2, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS2, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS2, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS2, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x6944, 0x6666, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x7551, 0x746f, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x7553, 0x6d6d, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x7250, 0x646f, "\000" 
+    0
+END
+
+IDD_THETA_Qv_CMD DLGINIT
+BEGIN
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QP, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QQ, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_Max, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_COMBO_Max, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_Min, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_Min, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 6, 0
+0x3231, 0x3433, 0x0035, 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS1, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS1, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS1, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS1, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS1, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS2, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS2, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS2, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS2, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS2, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x6944, 0x6666, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x7551, 0x746f, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x7553, 0x6d6d, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x7250, 0x646f, "\000" 
+    IDC_COMBO_Q, 0x403, 5, 0
+0x6f4b, 0x7272, "\000" 
+    IDC_COMBO_Q, 0x403, 4, 0
+0x6f43, 0x0076, 
+    IDC_COMBO_Q, 0x403, 4, 0
+0x6544, 0x0074, 
+    IDC_COMBO_Q, 0x403, 4, 0
+0x6552, 0x0064, 
+    IDC_COMBO_QQQ, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QQQ, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QQQ, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QQQ, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QQQ, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QQQ, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QQQ, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QQQ, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QQQ, 0x403, 3, 0
+0x5644, "\000" 
+    0
+END
+
+IDD_THETA_rQ_CMD DLGINIT
+BEGIN
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QP, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QP, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QP, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QQ, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QQ, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QQ, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_Max, 0x403, 4, 0
+0x3631, 0x0030, 
+    IDC_COMBO_Max, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO_Min, 0x403, 3, 0
+0x3034, "\000" 
+    IDC_COMBO_Min, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO_SEED, 0x403, 6, 0
+0x3231, 0x3433, 0x0035, 
+    IDC_COMBO_QS11, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS11, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS11, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS11, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS11, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS11, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS11, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS11, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS11, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QS12, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS12, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS12, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS12, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS12, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS12, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS12, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS12, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS12, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QR1, 0x403, 5, 0
+0x6f4b, 0x7272, "\000" 
+    IDC_COMBO_QR1, 0x403, 4, 0
+0x6f43, 0x0076, 
+    IDC_COMBO_QR1, 0x403, 4, 0
+0x6544, 0x0074, 
+    IDC_COMBO_QR1, 0x403, 4, 0
+0x6552, 0x0064, 
+    IDC_COMBO_QQQ, 0x403, 5, 0
+0x6944, 0x6666, "\000" 
+    IDC_COMBO_QQQ, 0x403, 5, 0
+0x7551, 0x746f, "\000" 
+    IDC_COMBO_QQQ, 0x403, 5, 0
+0x7553, 0x6d6d, "\000" 
+    IDC_COMBO_QQQ, 0x403, 5, 0
+0x7250, 0x646f, "\000" 
+    IDC_COMBO_QS21, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS21, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS21, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS21, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS21, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS21, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS21, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS21, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS21, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QS22, 0x403, 3, 0
+0x4d48, "\000" 
+    IDC_COMBO_QS22, 0x403, 3, 0
+0x4d41, "\000" 
+    IDC_COMBO_QS22, 0x403, 4, 0
+0x5553, 0x004d, 
+    IDC_COMBO_QS22, 0x403, 3, 0
+0x4453, "\000" 
+    IDC_COMBO_QS22, 0x403, 4, 0
+0x4156, 0x0052, 
+    IDC_COMBO_QS22, 0x403, 4, 0
+0x5350, 0x004d, 
+    IDC_COMBO_QS22, 0x403, 3, 0
+0x4d47, "\000" 
+    IDC_COMBO_QS22, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO_QS22, 0x403, 3, 0
+0x5644, "\000" 
+    IDC_COMBO_QR2, 0x403, 5, 0
+0x6f4b, 0x7272, "\000" 
+    IDC_COMBO_QR2, 0x403, 4, 0
+0x6f43, 0x0076, 
+    IDC_COMBO_QR2, 0x403, 4, 0
+0x6544, 0x0074, 
+    IDC_COMBO_QR2, 0x403, 4, 0
+0x6552, 0x0064, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "ThetaWin - Info"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\TW.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
