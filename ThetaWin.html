@@ -1,0 +1,161 @@
+<html> 
+<head>
+<meta charset="utf-8">
+ 
+<title></title>
+
+</head> 
+<body>
+
+<style>html { background:white; color:black; word-wrap: break-word; margin:5px; line-height:150%; } ul{ padding-left:1.5em; } strong, em{color:#b58900} code, pre, blockquote { background:#eee; color:black; tab-size: 1; } h1,h2,h3,h4,h5,h6{ line-height:150%; } h1 { color:#268bd2; } h2,h3,h4,h5,h6 { color:#268bd2; } a { color:#268bd2; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; text-decoration:none; } :active, :focus { outline: none; -moz-outline-style: none; } pre { padding: 10px 10px 10px 10px; font-family: monospace; font-size: 95%; line-height: 140%; white-space: pre; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; border:1px solid #eee; border-radius:10px; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); } code { font-family: monospace; font-size: 95%; line-height: 140%; white-space: pre; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; } table{ width:100%; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); } table, th, td { border-collapse:collapse; padding:10px; border:1px solid #ccc; vertical-align: top; } tbody tr:nth-child(odd) { background:#eee; } noheader th {display:none;} blockquote { border-left: 10px solid #ccc; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); } blockquote {margin:0px 0px 0px 10px;padding:0px;padding-left:1em;} img { width: 80%; display: block; border: solid #ccc 1px; height: auto; margin-left: auto; margin-right: auto; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); } center p{text-align:center;} left p{text-align:left;} right p{text-align:right;} img[title=right]{width:40%; float:right; padding: 1px;margin: 10px;} img[title=left]{width:40%; float:left; padding: 1px;margin: 10px;} kbd { padding:0.1em 0.6em; border:1px solid #ccc; font-size:11px; font-family:arial,helvetica,sans-serif; background-color:#f7f7f7; color:#333; border-radius:3px; display:inline-block; margin:0 0.1em; white-space:nowrap; }</style>
+<h1 id="thetawin">ThetaWin</h1>
+<p>Graphical user interface for SCHRAUSSER Theta (Schrausser, 2009) applications
+generating distributions and estimators for several parameters q within different designs via bootstrap method:</p>
+<h2 id="theta">Theta</h2>
+<pre><code>Usage: Theta [sd] [min] [max] [qq] [q] [v] [s] [[x]] [[g]]
+ [sd]  ........... Seed: |0| Zeitwert
+ [min] ........... R Minimalwert
+ [max] ........... R Maximalwert
+ [qq]  ........... Theta-Theta/
+ [q]   ........... Theta:
+                   |0| Harmonisches Mittel (HM)
+                   |1| Arithmetisches Mittel (AM)
+                   |2| Summe (SUM)
+                   |3| Standardabweichung (SD)
+                   |4| Populationsvarianzschaetzung (VAR)
+                   |5| Produktsumme(PSM)
+                   |6| Geometrisches Mittel(GM)
+                   |7| Schrausser's d (D)
+                   |8| DvarO (DV)
+ [v]  ...........  n zu Theta (v)
+ [s]  ...........  n Subpopulationen (s)
+ [x]  ...........  Vergleichswert x
+ [g]  ...........  |1| Wertebereich ganzzahlig
+</code></pre>
+<h2 id="theta-q">Theta Q</h2>
+<pre><code>Usage: Theta_Q [sd][min][max][qq][qp][qs1][qs2][qQ][v][m][n][s] [[x]] [[g]]
+ [sd]  ........................... Seed: |0| Zeitwert
+ [min] ........................... R Minimalwert
+ [max] ........................... R Maximalwert
+ [qq]  ........................... Theta-Theta/
+ [qp]  ........................... Theta P/
+ [qs1] [qs2] ..................... Theta S1, S2:
+                                   |0| Harmonisches Mittel (HM)
+                                   |1| Arithmetisches Mittel (AM)
+                                   |2| Summe (SUM)
+                                   |3| Standardabweichung (SD)
+                                   |4| Populationsvarianzschaetzung (VAR)
+                                   |5| Produktsumme(PSM)
+                                   |6| Geometrisches Mittel(GM)
+                                   |7| Schrausser's d (D)
+                                   |8| DvarO (DV)
+ [qQ]  ........................... Theta Q:
+                                   |1| Differenz
+                                   |2| Quotient
+                                   |3| Summe
+                                   |4| Produkt
+ [v]  ...........................  n zu Theta P (v)
+ [m]  ...........................  n zu Theta S1 (m)
+ [n]  ...........................  n zu Theta S2 (n)
+ [s]  ...........................  n Subpopulationen (s)
+ [x]  ...........................  Vergleichswert x
+ [g]  ...........................  |1| Wertebereich ganzzahlig
+</code></pre>
+<h2 id="theta-qv">Theta Qv</h2>
+<pre><code>Usage: Theta_Qv [sd][min][max][qq][qp][qs1][qs2][qQ][QQ][v][n][s] [[x]] [[g]]
+ [sd]  ........................... Seed: |0| Zeitwert
+ [min] ........................... R Minimalwert
+ [max] ........................... R Maximalwert
+ [qq]  ........................... Theta-Theta/
+ [qp]  ........................... Theta P/
+ [qs1][qs2]....................... Theta S1, S2/
+ [qQ]  ........................... Theta Q:
+                                   |0| Harmonisches Mittel (HM)
+                                   |1| Arithmetisches Mittel (AM)
+                                   |2| Summe (SUM)
+                                   |3| Standardabweichung (SD)
+                                   |4| Populationsvarianzschaetzung (VAR)
+                                   |5| Produktsumme(PSM)
+                                   |6| Geometrisches Mittel(GM)
+                                   |7| Schrausser's d (D)
+                                   |8| DvarO (DV)
+ [QQ]  ........................... Theta Theta Q:
+                                   |1| Differenz
+                                   |2| Quotient
+                                   |3| Summe
+                                   |4| Produkt
+                                   |5| Korrelation
+                                   |6| Kovarianz
+                                   |7| Determinationskoeffizient
+                                   |8| Redundanz
+ [v]  ...........................  n zu Theta P (v)
+ [n]  ...........................  n zu Theta S1,S2 (n)
+ [s]  ...........................  n Subpopulationen (s)
+ [x]  ...........................  Vergleichswert x
+ [g]  ...........................  |1| Wertebereich ganzzahlig
+</code></pre>
+<h2 id="theta-rq">Theta rQ</h2>
+<pre><code>Usage: Theta_rQ [sd][min][max][qq][qp][q11][q12][q21][q22][qr1][qr2][qQ][v][m][n][s] [[x]] [[g]]
+ [sd]  ....................... Seed: |0| Zeitwert
+ [min] ....................... R Minimalwert
+ [max] ....................... R Maximalwert
+ [qq]  ....................... Theta-Theta/
+ [qp]  ....................... Theta P/
+ [q11][q12] .................. Theta S11, S12/
+ [q21][q22] .................. Theta S21, S22:
+                               |0| Harmonisches Mittel (HM)
+                               |1| Arithmetisches Mittel (AM)
+                               |2| Summe (SUM)
+                               |3| Standardabweichung (SD)
+                               |4| Populationsvarianzschaetzung (VAR)
+                               |5| Produktsumme(PSM)
+                               |6| Geometrisches Mittel(GM)
+                               |7| Schrausser's d (D)
+                               |8| DvarO (DV)
+ [qr1][qr2] ...................Theta Regressionen 1,2/
+                               |1| Korrelation (kor)
+                               |2| Kovarianz (cov)
+                               |3| Determinatinskoeffizient (det)
+                               |4| Redundanz (red)
+ [qQ]  ....................... Theta Q:
+                               |1| Differenz (Diff)
+                               |2| Quotient (Quot)
+                               |3| Summe (Summ)
+                               |4| Produkt (Prod)
+ [v]  .......................  n zu Theta P (v)
+ [m]  .......................  n zu Theta S11,S12 (m)
+ [n]  .......................  n zu Theta S21,S22 (n)
+ [s]  .......................  n Subpopulationen (s)
+ [x]  .......................  Vergleichswert x
+ [g]  .......................  |1| Wertebereich ganzzahlig
+</code></pre>
+<h2 id="theta-s">Theta S</h2>
+<pre><code>Usage: Theta_S [sd] [min] [max] [qq] [qp] [qs] [v] [m] [s] [[x]] [[g]]
+ [sd]  ...................... Seed: |0| Zeitwert
+ [min] ...................... R Minimalwert
+ [max] ...................... R Maximalwert
+ [qq]  ...................... Theta-Theta:
+ [qp]  ...................... Theta P/
+ [qs]  ...................... Theta S/
+                              |0| Harmonisches Mittel (HM)
+                              |1| Arithmetisches Mittel (AM)
+                              |2| Summe (SUM)
+                              |3| Standardabweichung (SD)
+                              |4| Populationsvarianzschaetzung (VAR)
+                              |5| Produktsumme(PSM)
+                              |6| Geometrisches Mittel(GM)
+                              |7| Schrausser's d (D)
+                              |8| DvarO (DV)
+  [v]  .....................  n zu Theta P (v)
+  [m]  .....................  n zu Theta S (m)
+  [s]  .....................  n Subpopulationen (s)
+  [x]  .....................  Vergleichswert x
+  [g]  .....................  |1| Wertebereich ganzzahlig
+</code></pre>
+<h2 id="references">References</h2>
+<p>Schrausser, D. G. (2009). <em>SCHRAUSSER Theta</em>. Academia Draft. <a href="https://www.academia.edu/81800920/SCHRAUSSER_Theta">https://www.academia.edu/81800920/SCHRAUSSER_Theta</a></p>
+
+
+</body>
+</html>
+    
