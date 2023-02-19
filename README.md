@@ -124,8 +124,29 @@ generating distributions and estimators for several parameters q within differen
      [x]  .......................  Vergleichswert x
      [g]  .......................  |1| Wertebereich ganzzahlig
 
-## ThetaS
+## Theta S
 
+    Usage: Theta_S [sd] [min] [max] [qq] [qp] [qs] [v] [m] [s] [[x]] [[g]]
+     [sd]  ...................... Seed: |0| Zeitwert
+     [min] ...................... R Minimalwert
+     [max] ...................... R Maximalwert
+     [qq]  ...................... Theta-Theta:
+     [qp]  ...................... Theta P/
+     [qs]  ...................... Theta S/
+                                  |0| Harmonisches Mittel (HM)
+                                  |1| Arithmetisches Mittel (AM)
+                                  |2| Summe (SUM)
+                                  |3| Standardabweichung (SD)
+                                  |4| Populationsvarianzschaetzung (VAR)
+                                  |5| Produktsumme(PSM)
+                                  |6| Geometrisches Mittel(GM)
+                                  |7| Schrausser's d (D)
+                                  |8| DvarO (DV)
+      [v]  .....................  n zu Theta P (v)
+      [m]  .....................  n zu Theta S (m)
+      [s]  .....................  n Subpopulationen (s)
+      [x]  .....................  Vergleichswert x
+      [g]  .....................  |1| Wertebereich ganzzahlig
 
 ## References
 Schrausser, D., G. (2009). *SCHRAUSSER Theta*. Academia Draft. https://www.academia.edu/81800920/SCHRAUSSER_Theta
