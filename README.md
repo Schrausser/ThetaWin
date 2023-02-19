@@ -89,16 +89,43 @@ generating distributions and estimators for several parameters q within differen
      [g]  ...........................  |1| Wertebereich ganzzahlig
 
 ## Theta rQ
-- |1| Correlation (kor) 
-- |2| Covariance (cov) 
-- |3| Determinatin coeffizient (det) 
-- |4| Redundance (red) 
-- |1| Difference (Diff) 
-- |2| Quotient (Quot) 
-- |3| Sum (Summ) 
-- |4| Product (Prod)
-### Theta S
-Parameters q
+
+    Usage: Theta_rQ [sd][min][max][qq][qp][q11][q12][q21][q22][qr1][qr2][qQ][v][m][n][s] [[x]] [[g]]
+     [sd]  ....................... Seed: |0| Zeitwert
+     [min] ....................... R Minimalwert
+     [max] ....................... R Maximalwert
+     [qq]  ....................... Theta-Theta/
+     [qp]  ....................... Theta P/
+     [q11][q12] .................. Theta S11, S12/
+     [q21][q22] .................. Theta S21, S22:
+                                   |0| Harmonisches Mittel (HM)
+                                   |1| Arithmetisches Mittel (AM)
+                                   |2| Summe (SUM)
+                                   |3| Standardabweichung (SD)
+                                   |4| Populationsvarianzschaetzung (VAR)
+                                   |5| Produktsumme(PSM)
+                                   |6| Geometrisches Mittel(GM)
+                                   |7| Schrausser's d (D)
+                                   |8| DvarO (DV)
+     [qr1][qr2] ...................Theta Regressionen 1,2/
+                                   |1| Korrelation (kor)
+                                   |2| Kovarianz (cov)
+                                   |3| Determinatinskoeffizient (det)
+                                   |4| Redundanz (red)
+     [qQ]  ....................... Theta Q:
+                                   |1| Differenz (Diff)
+                                   |2| Quotient (Quot)
+                                   |3| Summe (Summ)
+                                   |4| Produkt (Prod)
+     [v]  .......................  n zu Theta P (v)
+     [m]  .......................  n zu Theta S11,S12 (m)
+     [n]  .......................  n zu Theta S21,S22 (n)
+     [s]  .......................  n Subpopulationen (s)
+     [x]  .......................  Vergleichswert x
+     [g]  .......................  |1| Wertebereich ganzzahlig
+
+## ThetaS
+
 
 ## References
 Schrausser, D., G. (2009). *SCHRAUSSER Theta*. Academia Draft. https://www.academia.edu/81800920/SCHRAUSSER_Theta
