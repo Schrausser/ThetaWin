@@ -149,4 +149,4 @@ generating distributions and estimators for several parameters q within differen
       [g]  .....................  |1| Wertebereich ganzzahlig
 
 ## References
-Schrausser, D., G. (2009). *SCHRAUSSER Theta*. Academia Draft. https://www.academia.edu/81800920/SCHRAUSSER_Theta
+Schrausser, D. G. (2009). *SCHRAUSSER Theta*. Academia Draft. https://www.academia.edu/81800920/SCHRAUSSER_Theta
