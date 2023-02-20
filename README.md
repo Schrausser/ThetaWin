@@ -1,5 +1,5 @@
 # ThetaWin
-Graphical user interface for SCHRAUSSER Theta (Schrausser, 2009) applications 
+Graphical user interface for Theta (Schrausser, 2009) applications 
 generating distributions and estimators for several parameters q within different designs via bootstrap method:
 
 ## Theta
@@ -149,4 +149,4 @@ generating distributions and estimators for several parameters q within differen
       [g]  .....................  |1| Wertebereich ganzzahlig
 
 ## References
-Schrausser, D. G. (2009). *SCHRAUSSER Theta*. Academia Draft. https://www.academia.edu/81800920/SCHRAUSSER_Theta
+Schrausser, D. G. (2009). *ThetaWin: Overview*. Academia Draft. https://www.academia.edu/81800920/SCHRAUSSER_Theta
