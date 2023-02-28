@@ -2,6 +2,24 @@
 Graphical user interface for Theta (Schrausser, 2009) applications 
 generating distributions and estimators for several parameters q within different designs via bootstrap method:
 
+### Screenshots
+
+
+![figure.\label{pic1}](pic1.jpg)
+
+
+![figure.\label{pic2}](pic2.jpg)
+
+
+![figure.\label{pic3}](pic3.jpg)
+
+
+![figure.\label{pic4}](pic4.jpg)
+
+
+
+
+
 ## Theta
 
     Usage: Theta [sd] [min] [max] [qq] [q] [v] [s] [[x]] [[g]]
