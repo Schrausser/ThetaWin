@@ -17,7 +17,10 @@ generating distributions and estimators for several parameters q within differen
 ![figure.\label{pic4}](pic4.jpg)
 
 
+![figure.\label{pic5}](pic5.jpg)
 
+
+![figure.\label{pic6}](pic6.jpg)
 
 
 ## Theta
