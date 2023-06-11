@@ -104,19 +104,3 @@ void CTWApp::OnSysCommand(UINT nID, LPARAM lParam)
 		
 	OnSysCommand(nID, lParam);	
 }
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
