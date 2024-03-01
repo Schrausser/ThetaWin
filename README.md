@@ -1,8 +1,8 @@
 # ThetaWin
 ![figure.\label{pic0}](ThetaWin.png)
 
-Graphical user interface for Theta (Schrausser, 2009) applications 
-generating distributions and estimators for several parameters q within different designs via bootstrap method:
+Graphical user interface for *Theta*  applications (Schrausser, 2009)
+generating distributions and estimators for several parameters $\theta$ within different designs via *bootstrap* methods.
 
 ### Screenshots
 
