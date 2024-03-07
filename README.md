@@ -172,4 +172,7 @@ generating distributions and estimators for several parameters $\theta$ via *boo
       [g]  .....................  |1| Wertebereich ganzzahlig
 
 ## References
+
 Schrausser, D. G. (2009). *ThetaWin: Overview*. https://www.academia.edu/81800920
+
+------. (2023). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7664141
