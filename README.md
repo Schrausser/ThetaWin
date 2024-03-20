@@ -2,7 +2,9 @@
 ![figure.\label{pic0}](ThetaWin.png)
 
 Graphical user interface for *Theta*  applications (Schrausser, 2009) within `ConsoleApp_DistributionFunctions` (Schrausser, 2023),
-generating distributions and estimators for several parameters $\theta$ via *bootstrap* methods.
+generating distributions and estimators for several parameters $\theta$ via *bootstrap* method, with given number of resamples $B$, where bootstrap estimator
+
+$$\hat\theta_B=B^{-1}⋅\sum_{i=1}^B\theta^*_i.$$
 
 ### Screenshots
 
