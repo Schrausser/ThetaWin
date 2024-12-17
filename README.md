@@ -8,7 +8,7 @@ $$\hat\theta_B=B^{-1}⋅\sum_{i=1}^B\theta^*_i,$$
 
 introduced by Efron (1979, 1981, 1982) as a further development of the *Jackknife* method (Quenouille, 1949). See also *Monte-Carlo* Methode (Metropolis & Ulam, 1949) and *permutation or randomization* tests, first mentioned by Fisher (1935), based on his own account of experiments in agriculture (Fisher, 1926) and the work by Neyman (1923). 
 
-In this context see further Pitman (1937a, b, 1938), Fisher (1966, 1971), Efron et al. (1992), Good (2006), Edgington & Onghena (2007), Beasley & Rodgers (2009), Oneto (2020) or Kauermann et al.(2021). A fundamental comparative overview of the different methods and approaches is given by Schrausser (1996).
+In this context see further Pitman (1937a, b, 1938), Fisher (1966, 1971), Efron et al. (1992), Good (2006), Edgington & Onghena (2007), Beasley & Rodgers (2009), Oneto (2020) or Kauermann et al. (2021). A fundamental comparative overview of the different methods and approaches is given by Schrausser (1996).
 
 ### Screenshots
 
