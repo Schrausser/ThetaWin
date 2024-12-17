@@ -201,6 +201,8 @@ Good, P. (2006). *Resampling Methods*. 3rd ed. Basel: Birkhäuser. https://ww
 
 Metropolis, N., & Ulam, S. (1949). The Monte Carlo Method. *Journal of the American Statistical Association 44* (247): 335–41. https://doi.org/10.1080/01621459.1949.10483310.
 
+Neyman, J. (1923). Sur les applications de la theorie des probabilites aux experience agricoles: Essay de principes. *Roczniki Nank Polniczek 10*: 1–51. https://link.springer.com/chapter/10.1007/978-94-015-8816-4_10.
+
 Pitman, E. J. G. (1937a). Significance Tests Which May Be Applied to Samples from Any Populations. *Supplement to the Journal of the Royal Statistical Society 4* (1): 119–30. http://www.jstor.org/stable/2984124.
 
 ———. (1937b). Significance Tests Which May Be Applied to Samples from Any Populations. II. The Correlation Coefficient Test. *Supplement to the Journal of the Royal Statistical Society 4* (2): 225–32. http://www.jstor.org/stable/2983647.
