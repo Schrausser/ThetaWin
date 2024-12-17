@@ -1,7 +1,7 @@
 # ThetaWin
 ![figure.\label{pic0}](ThetaWin.png)
 
-Graphical user interface for *Theta*  applications (Schrausser, 2009) within `ConsoleApp_DistributionFunctions` (Schrausser, 2023),
+Graphical user interface for *Theta*  applications (Schrausser, 2009) within `ConsoleApp_DistributionFunctions` (Schrausser, 2024),
 generating distributions and estimators for several parameters $\theta$ via *bootstrap* method, with given number of resamples $B$, where bootstrap estimator
 
 $$\hat\theta_B=B^{-1}⋅\sum_{i=1}^B\theta^*_i,$$
@@ -181,4 +181,4 @@ In this context see further Pitman (1937a, b, 1938), Fisher (1966, 1971), Good (
 
 Schrausser, D. G. (2009). *ThetaWin: Overview*. https://www.academia.edu/81800920
 
-———. (2023). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7664141
+———. (2024). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.5.0). Zenodo. https://doi.org/10.5281/zenodo.7664141
