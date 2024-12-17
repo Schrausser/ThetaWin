@@ -8,7 +8,7 @@ $$\hat\theta_B=B^{-1}⋅\sum_{i=1}^B\theta^*_i,$$
 
 introduced by Efron (1979, 1981, 1982) as a further development of the *Jackknife* method (Quenouille, 1949). See also *Monte-Carlo* Methode (Metropolis & Ulam, 1949) and *permutation or randomization* tests, first mentioned by Fisher (1935), based on his own account of experiments in agriculture (Fisher, 1926) and the work by Neyman (1923). 
 
-In this context see further Pitman (1937a, b, 1938), Fisher (1966, 1971), Good (2006), Edgington & Onghena (2007) or Beasley & Rodgers (2009). A fundamental comparative overview of the different methods and approaches is given by Schrausser (1996).
+In this context see further Pitman (1937a, b, 1938), Fisher (1966, 1971), Efron et al. (1992), Good (2006), Edgington & Onghena (2007), Beasley & Rodgers (2009), Oneto (2020) or Kauermann et al.(2021). A fundamental comparative overview of the different methods and approaches is given by Schrausser (1996).
 
 ### Screenshots
 
@@ -189,6 +189,8 @@ Efron, B. (1979). Bootstrap Methods: Another Look at the Jackknife. *The Annal
 
 ———. (1982). The Jackknife, the Bootstrap and Other Resampling Plans. *CBMS-NSF Regional Conference Series in Applied Mathematics, Monograph 38*. Philadelphia: SIAM, Society for Industrial and Applied Mathematics. https://doi.org/10.1137/1.9781611970319.
 
+Efron, B., & Kotz, S., & Johnson, N. L. (1992). Bootstrap Methods: Another Look at the Jackknife. In *Breakthroughs in Statistics: Methodology and Distribution*, 569–93. New York, NY: Springer New York. https://doi.org/10.1007/978-1-4612-4380-9_41.
+
 Fisher, R. A. (1926). The Arrangement of Field Experiments. *Journal of the Ministry of Agriculture 33*: 503–15. https://doi.org/10.23637/rothamsted.8v61q.
 
 ———. (1935). *The Design of Experiments*. 1st ed. Edinburgh: Oliver & Boyd. https://psycnet.apa.org/record/1939-04964-000.
@@ -199,9 +201,13 @@ Fisher, R. A. (1926). The Arrangement of Field Experiments. *Journal of the Mi
 
 Good, P. (2006). *Resampling Methods*. 3rd ed. Basel: Birkhäuser. https://www.amazon.com/Resampling-Methods-Practical-Guide-Analysis/dp/0817643869.
 
+Kauermann, G., Küchenhoff, H., & Heumann, C. (2021). Bootstrapping. In *Statistical Foundations, Reasoning and Inference: For Science and Data Science*, 197–229. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-69827-0_8.
+
 Metropolis, N., & Ulam, S. (1949). The Monte Carlo Method. *Journal of the American Statistical Association 44* (247): 335–41. https://doi.org/10.1080/01621459.1949.10483310.
 
 Neyman, J. (1923). Sur les applications de la theorie des probabilites aux experience agricoles: Essay de principes. *Roczniki Nank Polniczek 10*: 1–51. https://link.springer.com/chapter/10.1007/978-94-015-8816-4_10.
+
+Oneto, L. (2020). Resampling Methods. In *Model Selection and Error Estimation in a Nutshell*, 25–31. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-030-24359-3_4.
 
 Pitman, E. J. G. (1937a). Significance Tests Which May Be Applied to Samples from Any Populations. *Supplement to the Journal of the Royal Statistical Society 4* (1): 119–30. http://www.jstor.org/stable/2984124.
 
