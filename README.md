@@ -209,7 +209,7 @@ Pitman, E. J. G. (1937a). Significance Tests Which May Be Applied to Samples fr
 
 Quenouille, M. H. (1949). Approximate Tests of Correlation in Time-Series. *Journal of the Royal Statistical Society B, Methodological, 11* (1): 68–84. https://doi.org/10.1111/j.2517-6161.1949.tb00023.x.
 
-Schrausser, D. G. (1996). *Permutationstests: Theoretische und praktische Arbeitsweise von Permutationsverfahren beim unverbundenen 2 Stichprobenproblem*. Universität Graz: Naturwissenschaftliche Fakultät. https://doi.org/10.13140/RG.2.2.24500.32640/1.
+Schrausser, D. G. (1996). *Permutationstests: Theoretische und praktische Arbeitsweise von Permutationsverfahren beim unverbundenen 2 Stichprobenproblem*. Universität Graz: Naturwissenschaftliche Fakultät. https://zenodo.org/records/11529663.
 
 ———. (2009). ThetaWin Overview. *Software*. Academia. https://www.academia.edu/81800920.
 
