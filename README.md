@@ -179,6 +179,38 @@ In this context see further Pitman (1937a, b, 1938), Fisher (1966, 1971), Good (
 
 ## References
 
-Schrausser, D. G. (2009). *ThetaWin: Overview*. https://www.academia.edu/81800920
+Beasley, W. H., & Rodgers, J. L. (2009). Resampling Methods. In *The Sage Handbook of Quantitative Methods in Psychology*, edited by Millsap, R. E., & Maydeu-Olivares, A., 362–86. Thousand Oaks, California: Sage Publications Ltd. https://psycnet.apa.org/doi/10.4135/9780857020994.n16.
 
-———. (2024). *Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions* (v1.5.0). Zenodo. https://doi.org/10.5281/zenodo.7664141
+Edgington, E. S., & Onghena, P. (2007). *Randomization Tests*. 4th ed. New York: Chapman and Hall/CRC. https://doi.org/10.1201/9781420011814.
+
+Efron, B. (1979). Bootstrap Methods: Another Look at the Jackknife. *The Annals of Statistics 7* (1): 1–26. https://doi.org/10.1214/aos/1176344552.
+
+———. (1981). Nonparametric Estimates of Standard Error: The Jackknife, the Bootstrap and Other Methods. *Biometrika 68 (3)*: 589–99. https://doi.org/10.1093/biomet/68.3.589.
+
+———. (1982). The Jackknife, the Bootstrap and Other Resampling Plans. *CBMS-NSF Regional Conference Series in Applied Mathematics, Monograph 38*. Philadelphia: SIAM, Society for Industrial and Applied Mathematics. https://doi.org/10.1137/1.9781611970319.
+
+Fisher, R. A. (1926). The Arrangement of Field Experiments. *Journal of the Ministry of Agriculture 33*: 503–15. https://doi.org/10.23637/rothamsted.8v61q.
+
+———. (1935). *The Design of Experiments*. 1st ed. Edinburgh: Oliver & Boyd. https://psycnet.apa.org/record/1939-04964-000.
+
+———. (1966). *The Design of Experiments*. 8th ed. Edinburgh: Hafner. https://scirp.org/reference/referencespapers.aspx?referenceid=895747.
+
+———. (1971). *The Design of Experiments*. 9th ed. New York: Hafner Press. https://home.iitk.ac.in/~shalab/anova/DOE-RAF.pdf.
+
+Good, P. (2006). *Resampling Methods*. 3rd ed. Basel: Birkhäuser. https://www.amazon.com/Resampling-Methods-Practical-Guide-Analysis/dp/0817643869.
+
+Metropolis, N., & Ulam, S. (1949). The Monte Carlo Method. *Journal of the American Statistical Association 44* (247): 335–41. https://doi.org/10.1080/01621459.1949.10483310.
+
+Pitman, E. J. G. (1937a). Significance Tests Which May Be Applied to Samples from Any Populations. *Supplement to the Journal of the Royal Statistical Society 4* (1): 119–30. http://www.jstor.org/stable/2984124.
+
+———. (1937b). Significance Tests Which May Be Applied to Samples from Any Populations. II. The Correlation Coefficient Test. *Supplement to the Journal of the Royal Statistical Society 4* (2): 225–32. http://www.jstor.org/stable/2983647.
+
+———. (1938). Significance Tests Which May Be Applied to Samples from Any Populations: III. The Analysis of Variance Test. *Biometrika 29* (3/4): 322–35. http://www.jstor.org/stable/2332008.
+
+Quenouille, M. H. (1949). Approximate Tests of Correlation in Time-Series. *Journal of the Royal Statistical Society B, Methodological, 11* (1): 68–84. https://doi.org/10.1111/j.2517-6161.1949.tb00023.x.
+
+Schrausser, D. G. (1996). *Permutationstests: Theoretische und praktische Arbeitsweise von Permutationsverfahren beim unverbundenen 2 Stichprobenproblem*. Universität Graz: Naturwissenschaftliche Fakultät. https://doi.org/10.13140/RG.2.2.24500.32640/1.
+
+———. (2009). ThetaWin Overview. *Software*. Academia. https://www.academia.edu/81800920.
+
+———.(2024). Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions (version v1.5.0). Zenodo. https://doi.org/10.5281/zenodo.7664141.
