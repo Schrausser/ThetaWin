@@ -1,18 +1,27 @@
 <html> 
 <head>
 <meta charset="utf-8">
- 
-<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Author" content="Dietmar Gerald Schrausser">
+
+<title>
+ThetaWin/README
+</title>
 
 </head> 
-<body>
+<body style="font-family:calibri;font-size:85%;background-color:#efebe9;color:#37474f">
 
-<style></style>
+<style>
+a {color: #78909c; }
+a:visited {color: #78909c;}
+img {max-width: 50%;}
+</style>
+
 <h1 id="thetawin">ThetaWin</h1>
 <p><img src="ThetaWin.png" alt="figure.\label{pic0}" /></p>
 <p>Graphical user interface for <em>Theta</em>  applications (Schrausser, <a href="https://www.academia.edu/81800920">2009</a>) within <code>ConsoleApp_DistributionFunctions</code> (Schrausser, <a href="https://doi.org/10.5281/zenodo.7664141">2024</a>),
-generating distributions and estimators for several parameters $\theta$ via <em>bootstrap</em> method, with given number of resamples $B$, where bootstrap estimator</p>
-<p>$$\hat\theta_B=B^{-1}⋅\sum_{i=1}^B\theta^*_i,$$</p>
+generating distributions and estimators for several parameters <math display="inline"><mi>&theta;</mi></math> via <em>bootstrap</em> method, with given number of resamples <math display="inline"><mi>B</mi></math>, where bootstrap estimator</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><msub><mrow data-mjx-texclass="ORD"><mover><mi>&theta;</mi><mo stretchy="false">^</mo></mover></mrow><mi>B</mi></msub><mo>=</mo><msup><mi>B</mi><mrow data-mjx-texclass="ORD"><mo>&minus;</mo><mn>1</mn></mrow></msup><mo>&middot;</mo><munderover><mo data-mjx-texclass="OP">&Sigma;</mo><mrow data-mjx-texclass="ORD"><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>B</mi></munderover><msubsup><mi>&theta;</mi><mi>i</mi><mo>∗</mo></msubsup><mo>,</mo></math></p>
 <p>introduced by Efron (<a href="https://doi.org/10.1214/aos/1176344552">1979</a>, <a href="https://doi.org/10.1093/biomet/68.3.589">1981</a>, <a href="https://doi.org/10.1007/978-1-4612-4380-9_41">1982</a>) as a further development of the <em>Jackknife</em> method (Quenouille, <a href="https://doi.org/10.1111/j.2517-6161.1949.tb00023.x">1949</a>). See also <em>Monte-Carlo</em> Methode (Metropolis and Ulam, <a href="https://doi.org/10.1080/01621459.1949.10483310">1949</a>) and <em>permutation or randomization</em> tests, first mentioned by Fisher (<a href="https://psycnet.apa.org/record/1939-04964-000">1935</a>), based on his own account of experiments in agriculture (Fisher, <a href="https://doi.org/10.23637/rothamsted.8v61q">1926</a>) and the work by Neyman (<a href="https://link.springer.com/chapter/10.1007/978-94-015-8816-4_10">1923</a>).</p>
 <p>In this context see further Pitman (<a href="http://www.jstor.org/stable/2984124">1937a</a>, <a href="http://www.jstor.org/stable/2983647">b</a>, <a href="http://www.jstor.org/stable/2332008">1938</a>), Fisher (<a href="https://scirp.org/reference/referencespapers.aspx?referenceid=895747">1966</a>, <a href="https://home.iitk.ac.in/~shalab/anova/DOE-RAF.pdf">1971</a>), Efron et al. (<a href="">1992</a>), Good (<a href="https://www.amazon.com/Resampling-Methods-Practical-Guide-Analysis/dp/0817643869">2006</a>), Edgington and Onghena (<a href="https://doi.org/10.1201/9781420011814">2007</a>), Beasley and Rodgers (<a href="https://psycnet.apa.org/doi/10.4135/9780857020994.n16">2009</a>), Oneto (<a href="https://doi.org/10.1007/978-3-030-24359-3_4">2020</a>) or Kauermann et al. (<a href="https://doi.org/10.1007/978-3-030-69827-0_8">2021</a>). A fundamental comparative overview of the different methods and approaches is given by Schrausser (<a href="https://zenodo.org/records/11529663">1996</a>).</p>
 <h3 id="screenshots">Screenshots</h3>
@@ -163,6 +172,7 @@ generating distributions and estimators for several parameters $\theta$ via <em>
   [x]  .....................  Vergleichswert x
   [g]  .....................  |1| Wertebereich ganzzahlig
 </code></pre>
+<br>
 <h2 id="references">References</h2>
 <p>Beasley, W. H., &amp; Rodgers, J. L. (2009). Resampling Methods. In <em>The Sage Handbook of Quantitative Methods in Psychology</em>, edited by Millsap, R. E., &amp; Maydeu-Olivares, A., 362–86. Thousand Oaks, California: Sage Publications Ltd. <a href="https://psycnet.apa.org/doi/10.4135/9780857020994.n16">https://psycnet.apa.org/doi/10.4135/9780857020994.n16</a></p>
 <p>Edgington, E. S., &amp; Onghena, P. (2007). <em>Randomization Tests</em>. 4th ed. New York: Chapman and Hall/CRC. <a href="https://doi.org/10.1201/9781420011814">https://doi.org/10.1201/9781420011814</a></p>
@@ -186,15 +196,22 @@ generating distributions and estimators for several parameters $\theta$ via <em>
 <p>Schrausser, D. G. (1996). <em>Permutationstests: Theoretische und praktische Arbeitsweise von Permutationsverfahren beim unverbundenen 2 Stichprobenproblem</em>. Universität Graz: Naturwissenschaftliche Fakultät. <a href="https://zenodo.org/records/11529663">https://zenodo.org/records/11529663</a></p>
 <p>———. (2009). ThetaWin Overview. <em>Software</em>. Academia. <a href="https://www.academia.edu/81800920">https://www.academia.edu/81800920</a></p>
 <p>———.(2024). Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions (version v1.5.0). <a href="">Zenodo. https://doi.org/10.5281/zenodo.7664141</a></p>
-<script type="text/javascript" async
-	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
-	MathJax.Hub.Config({
-	tex2jax: {inlineMath: [['\\[','\\]'], ['\\(','\\)']]}
-	});
-</script>
 
+<hr WIDTH="75%">
+<blockquote ALIGN="CENTER">
+<center>
+<a href="https://github.com/Schrausser/ThetaWin">
+ThetaWin
+</a>
+<br><font color="#999999"><font size=-1>
+<a
+href="https://orcid.org/0000-0002-4924-8280">
+Dietmar Gerald Schrausser
+</a>
+<p>23.07.2025</p>
+</font></font>
+</center>
+</blockquote>	
 
 </body>
-</html>
+</html> 
