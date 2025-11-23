@@ -221,6 +221,6 @@ Schrausser, D. G. (1996). *Permutationstests: Theoretische und praktische Arbei
 
 ———. (2009). ThetaWin Overview. *Software*. Academia. [https://www.academia.edu/81800920](https://www.academia.edu/81800920)
 
-———.(2024). Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions (version v1.5.0). [https://doi.org/10.5281/zenodo.7664141](https://doi.org/10.5281/zenodo.7664141)
+———. (2024). Schrausser/ConsoleApp_DistributionFunctions: Console applicationes for distribution functions (version v1.5.0). [https://doi.org/10.5281/zenodo.7664141](https://doi.org/10.5281/zenodo.7664141)
 
 ———. (2025). Mathematical and Statistical Applications for HP Prime. *SocArXiv Papers, August*, 1–15. [https://doi.org/10.31235/osf.io/vs8a6_v1](https://doi.org/10.31235/osf.io/vs8a6_v1)
